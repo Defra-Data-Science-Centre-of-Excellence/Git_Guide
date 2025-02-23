@@ -1,7 +1,6 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  Author: Peter Duddy
 ---
 # Defra Data Science Centre of Excllence Git User Guide
 This guide and corresponding GitHub repository is intended to help new and existing Defra team-members learn the fundamentals of using Git in the workplace. Please direct any further questions you may have to peter.duddy@defra.gov.uk.
