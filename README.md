@@ -132,7 +132,7 @@ git pull origin main
 #### What if my feature branch has a typo in its name?
 - To delete a local branch you have created run...
 ```{code}
-git branch -d <typo_branch>
+git branch -D <typo_branch>
 ```
 
 #### What if I want to clone all the remote branches, not just main?
