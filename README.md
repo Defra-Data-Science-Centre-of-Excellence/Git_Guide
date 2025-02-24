@@ -110,7 +110,8 @@ git push
 - Click on "create pull request", add an informative title, as well as a longer description of the changes you've made.
 - On the right hand side of the screen you will be able to choose reviewers and assignees for your pull request. The assignee will be the person to ultimately approve and merge your pull request, whereas a reviewer is just anyone who you think might want to have sight of your changes. For now select myself (Pete-2319) as the assignee and click the "create pull request" button beneath the description box.
 - You've now covered all the key steps in working with Git. From cloning the repository to creating a pull request. The following sections will hopefully cover some scenarios you may encounter while working with Git and how to overcome them.
-
+![Image](https://github.com/user-attachments/assets/ed26e039-0ad2-4a72-bab1-240b7ea43df6)
+- The above graphic accurately summarises the overall Git workflow the you have just learned and will be following for your future projects.
 
 ## Common Scenarios?
 
