@@ -10,6 +10,7 @@ Any and all feedback is encouraged!
 - Git is an open-source Version Control System (VCS) for code. It’s the most widely used VCS in the world and is considered the industry standard.
 - Git allows multiple developers to work on their own local version of the same project simultaneously without affecting the remote “master” copy.
 - If you’ve followed the [**SCE VM setup guide**](https://animated-system-bf6fb80a.pages.github.io/getting_started/sce.html#requesting-a-virtual-machine), then Git should already be installed on your virtual machine. If you haven't followed the guide, then please complete this essential first step.
+<br>
 ![Image](https://github.com/user-attachments/assets/d392fb1f-30c0-49f5-91cd-17d3003795a8)
 - As you can see from the diagram, working with Git involves creating a copy (branch) of the "master" code, making changes to the code, then having those changes incorporated (merged) into the "master" codebase. This both preserves the integrity of the "master" branch and allows the blue and orange user to work simultaneously without overwriting each other's work.
 - We will cover how to do all of this shortly.
