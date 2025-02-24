@@ -136,3 +136,12 @@ git branch -d <typo_branch>
 ```
 
 #### What if I want to clone all the remote branches, not just main?
+- If you've just cloned a remote repository and only have the main branch in your local repository, you can run...
+```{code}
+git branch -r
+```
+- This will display all the remote branches. Once you know which one you need to work on, run...
+```{code}
+git checkout --track origin/<remote_branch_of_interest>
+```
+- This will bring the create a local branch of the same name from the remote branch of interest and bring in the che code changes.
