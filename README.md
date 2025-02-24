@@ -23,7 +23,7 @@ Any and all feedback is encouraged!
 #### 1. Cloning
 - This guide will demonstrate how to use Git on the command line using the [**Git_Guide**](https://github.com/Defra-Data-Science-Centre-of-Excellence/Git_Guide) repository as an example. 
 - Various extensions and user interfaces for Git exist within VS code and R studio. However, the command line is where you can use the full scope of Git utility, so it is the best way to learn how Git works.
-- The first step in working with any Git repository is to "clone it". 
+- The first step in working with any Git repository is to "clone" it. 
 - Navigate to the [**Git_Guide**](https://github.com/Defra-Data-Science-Centre-of-Excellence/Git_Guide) repo, click on the green code button, and copy the SSH URL underneath where it says "Clone".
 - Open PowerShell and turn on your VM.
 ```{code}
