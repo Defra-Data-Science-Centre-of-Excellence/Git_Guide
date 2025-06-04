@@ -124,8 +124,21 @@ git pull origin main
 - This will pull any code changes that have been merged into the main branch and update the code in your local branch so that you are up to date.
 - This shouldn't affect the code you've been working on, because it is good practice to coordinate the work you are doing with your colleagues, so that two people aren;t working on the same files at the same time.
 #### What if I can't use SSH to clone my repository?
+- If you cannot use the SSH url to clone your repository, then you should use the HTTPS url.
+- You will need to manually set the username and email associated with your GitHub account if this is your first time by running...
+```{code}
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+```
+- The Git Guide repository we have been using to get familiar with Git is a public repository, so anyone can use it and learn from it. Many of the repositories you will be working with will, however, be private repositories and if you have had to use an HTTPS url, you will also require a personal access token.
+- A personal access token (PAT) is basically a password needed to push your code to the repository.
+- To generate a PAT, navigate to GitHub.com, click on your profile picture in the top right corner and go to settings. At the bottom of the menu on the left scroll to the bottom and click "developer settings" > "Personal access tokens" > "Toekns (classic)".
+- When generating your token, you will need to select all the "repo" options in the tick box menu where you select the scope of the token. It is also recommended to impose an expiration date on the PAT.
+- Create a descriptive name for your token, then click the green "Generate token" button.
+- You will now see a very long PAT code at the top of the token list. Copy the code and paste it somewhere you can reference in future.
+- Now when you push your code to the private repository and it asks for a password, paste the PAT into the prompt and you will be able to work and contribute to the repository.
 
-#### What if I commited some bad code?
+#### What if I committed some bad code?
 
 #### What if I accidentally altered the main branch?
 
@@ -134,6 +147,7 @@ git pull origin main
 ```{code}
 git branch -D <typo_branch>
 ```
+- Then re-run the code to create a new local branch with the intended name.
 
 #### What if I want to clone all the remote branches, not just main?
 - If you've just cloned a remote repository and only have the main branch in your local repository, you can run...
@@ -144,4 +158,4 @@ git branch -r
 ```{code}
 git checkout --track origin/<remote_branch_of_interest>
 ```
-- This will bring the create a local branch of the same name from the remote branch of interest and bring in the che code changes.
+- This will create a local branch of the same name from the remote branch of interest and bring in the code changes.
